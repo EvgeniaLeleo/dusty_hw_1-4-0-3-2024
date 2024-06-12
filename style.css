@@ -1,0 +1,113 @@
+.stats {
+  width: 264px;
+  height: 218px;
+  padding: 24px;
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  border: 1px solid #e3e3e8;
+}
+
+.stats-title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0.005em;
+
+  margin: 0;
+}
+
+.stats-diagram {
+  font: 0/0 a;
+  height: 12px;
+  margin-top: 16px;
+
+  background-color: #e3e3e8;
+}
+
+.diagram-part {
+  display: inline-block;
+
+  height: 100%;
+}
+
+.diagram-income {
+  width: 66px;
+
+  background-color: #0e0637;
+}
+
+.diagram-spends {
+  width: 92px;
+
+  background-color: #daf727;
+}
+
+.diagram-invest {
+  width: 44px;
+
+  background-color: #5235e8;
+}
+
+.stats-list {
+  list-style: none;
+
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.stats-item {
+  font: 0/0 a;
+
+  margin-bottom: 12px;
+}
+
+.stats-item:last-child {
+  margin-bottom: 0;
+}
+
+.item-part {
+  display: inline-block;
+
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16.2px;
+
+  width: 50%;
+}
+
+.item-label {
+  letter-spacing: 0.005em;
+  color: #717184;
+}
+
+.item-price {
+  font-weight: 500;
+  color: #131316;
+  text-align: right;
+}
+
+.item-legend {
+  display: inline-block;
+
+  width: 8px;
+  height: 8px;
+}
+
+.legend-income {
+  background-color: #0e0637;
+}
+
+.legend-spends {
+  background-color: #daf727;
+}
+
+.legend-invest {
+  background-color: #5235e8;
+}
+
+.legend-installments {
+  background-color: #717184;
+}
