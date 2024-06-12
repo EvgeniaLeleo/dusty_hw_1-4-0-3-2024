@@ -1,6 +1,6 @@
 .stats {
   width: 264px;
-  height: 218px;
+  min-height: 218px;
   padding: 24px;
   box-sizing: border-box;
 
@@ -81,6 +81,8 @@
 .item-label {
   letter-spacing: 0.005em;
   color: #717184;
+
+  word-break: break-all;
 }
 
 .item-price {
